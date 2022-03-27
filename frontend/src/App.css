@@ -1,0 +1,141 @@
+/* ==========================================================================
+   Section comment block
+   ========================================================================== */
+
+body {
+  margin: 0;
+  background-color: #fffcf2;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 28px;
+}
+
+h1 {
+  margin: 0 0 30px 0;
+  font-size: 28px;
+}
+
+/* ==========================================================================
+   Accessibility
+   ========================================================================== */
+
+.visually-hidden {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
+}
+
+/* ==========================================================================
+   Layout
+   ========================================================================== */
+
+header,
+main,
+footer {
+  padding: 60px 0;
+}
+
+.container {
+  max-width: 800px;
+  padding: 0 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+/* Header
+   ========================================================================== */
+
+header {
+  background-color: #5da4f0;
+}
+
+/* ==========================================================================
+   Search form
+   ========================================================================== */
+
+.search-form {
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.search-icon {
+  position: absolute;
+  background-image: url("images/icons8-search.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 28px;
+  height: 48px;
+  width: 48px;
+  left: 18px;
+  top: 8px;
+}
+
+#searchTerm {
+  border: none;
+  padding: 18px 72px 18px 72px;
+  border-radius: 40px;
+  width: 100%;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+.reset-button {
+  background-color: #f1f1f1;
+  position: absolute;
+  background-image: url("images/icons8-close.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px;
+  height: 48px;
+  width: 48px;
+  right: 8px;
+  top: 8px;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.reset-button:hover {
+  background-color: #ddd;
+}
+
+#searchTerm:focus-visible {
+  outline: 3px solid #3c81c9;
+}
+
+.search-button:hover {
+  background-color: #1a759f;
+  cursor: pointer;
+}
+
+.search-button:focus-visible {
+  outline: 3px solid #3c81c9;
+}
+
+/* ==========================================================================
+   Articles
+   ========================================================================== */
+
+.articles {
+  margin: 0;
+  padding: 0;
+}
+
+.articles li {
+  list-style: none;
+  margin: 0 0 60px 0;
+  max-height: 300px;
+  overflow: hidden;
+}
