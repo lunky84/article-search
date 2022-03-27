@@ -2,7 +2,7 @@
 
 # Article search
 
-This react application provides a way to quickly and easily search through a store of over articles.
+This react application provides a way to quickly and easily search through a store of articles. In this project each article is stored as a .txt file on the server. Matching articles are retrived with node.js.
 
 The search uses boolean searching to return results that contain the keyword terms entered into the search box. Results are ordered by frequency - so the more keyword terms an article contains the more relevant it will be regarded. Searches have been limited to 10 results.
 
